@@ -1,1 +1,40 @@
+ body {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
 
+}
+
+.banner {
+  text-align: center;
+  background-color: #825eb8;
+  color: white;
+  padding: 20px;
+}
+
+.container {
+  flex: 1;
+  display: flex;
+}
+
+.sidebar-left, .sidebar-right {
+  width: 20%;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+.main-content {
+  width: 60%;
+  padding: 20px;
+}
+
+.footer {
+  text-align: center;
+  background-color: #825eb8;
+  color: white;
+  padding: 20px;
+}
+
+}
